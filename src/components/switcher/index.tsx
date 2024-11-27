@@ -6,10 +6,8 @@ const Switcher = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [language, setLanguage] = useState("Türkçe");
 
-  // useRef hook'u ile dropdown menüsünü referans alıyoruz
   const switcherRef = useRef(null);
 
-  // Dropdown dışında bir yere tıklanırsa dropdown kapanacak
   useOnClickOutside(switcherRef, () => setIsOpen(false));
 
   const toggleDropdown = () => {
@@ -18,7 +16,7 @@ const Switcher = () => {
 
   const handleLanguageChange = (lang: any) => {
     setLanguage(lang);
-    setIsOpen(false); // Dil seçildikten sonra dropdown kapanır
+    setIsOpen(false);
   };
 
   return (
