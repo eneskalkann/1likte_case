@@ -15,7 +15,7 @@ const Footer = () => {
           />
         </div>
 
-        <div className="flex flex-col items-center gap-5 text-[#6B7280] md:mt-[50px]">
+        <div className="flex flex-col items-center gap-5 text-[#6B7280] mt-5 md:mt-[50px]">
           <div className="hidden md:flex items-center gap-5">
             <Link href="/" className="text-sm">
               Görüşlerini Bildir
