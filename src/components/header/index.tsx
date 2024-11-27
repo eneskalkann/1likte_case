@@ -27,7 +27,7 @@ const Header = () => {
   };
 
   return (
-    <header className="container max-w-full bg-black border-b-[0.5px] border-[#D9D9D9] relative pt-6 pb-7">
+    <header className="container max-w-full bg-black border-b-[0.5px] border-[#D9D9D9] relative pt-6 pb-[43px] md:pb-7">
       <div className="flex justify-between relative">
         <div className="w-[128.77px] h-6 relative">
           <Image
