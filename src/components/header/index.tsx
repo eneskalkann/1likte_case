@@ -73,17 +73,17 @@ const Header = () => {
         <h1 className="text-[28px] leading-[34px] font-medium">
           1likte ekibinden tavsiyeler ve yanıtlar
         </h1>
-        <div className="flex gap-[10px] w-full bg-[#414141] bg-opacity-50 rounded-[10px] p-4">
+        <div className="flex gap-[10px] w-full bg-[#414141] bg-opacity-50 items-center rounded-[10px]">
           <Icon
             icon="search"
             color="#fff"
-            className="md:w-6 md:h-6 w-[18px] h-[18px]"
+            className="md:w-6 md:h-6 w-[18px] h-[18px] ml-4"
           />
           <input
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Yazılarda arayın..."
-            className="w-full bg-transparent outline-none text-white placeholder:text-white text-[14px] md:text-lg"
-          />
+            className="w-full bg-transparent outline-none p-4 text-white placeholder:text-white text-[14px] md:text-lg"
+          ></input>
         </div>
       </div>
     </header>
