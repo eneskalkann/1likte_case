@@ -51,7 +51,7 @@ const Header = () => {
       </div>
 
       <motion.div
-        className="lg:hidden absolute top-0 left-0 w-full h-screen bg-black text-white flex flex-col items-center justify-center gap-[20px]"
+        className="lg:hidden absolute top-0 left-0 w-full h-screen bg-black text-white flex flex-col items-center justify-center gap-[20px] z-50"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: isOpen ? 1 : 0, y: isOpen ? 0 : -50 }}
         transition={{ duration: 0.3 }}
