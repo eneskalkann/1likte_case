@@ -13,14 +13,14 @@ const CategoryCard = ({ category }: Category) => {
         className="text-[#1C1C1E] w-[24px] h-[24px] md:w-[28px] md:h-[28px] relative"
       />
       <div className="flex flex-col gap-[5px] py-[10px]">
-        <h2 className="text-[#1C1C1E] font-medium text-lg leading-5  md:text-[16px] md:leading-6">
+        <h2 className="text-[#1C1C1E] font-medium text-sm leading-5  md:text-[16px] md:leading-6">
           {category?.title}
         </h2>
-        <p className="text-[#414141] font-normal text-lg leading-5 md:text-[16px] md:leading-6 whitespace-pre-line">
+        <p className="text-[#414141] font-normal text-sm leading-5 md:text-[16px] md:leading-6 whitespace-pre-line">
           {category?.description}
         </p>
       </div>
-      <span className="text-[#9a9a9a] font-normal text-[13px] leading-4 mb-6">
+      <span className="text-[#9a9a9a] font-normal text-[13px] leading-4">
         {category?.detail}
       </span>
     </Link>
