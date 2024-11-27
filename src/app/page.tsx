@@ -12,7 +12,6 @@ export default function Home() {
       )
     : data?.categories;
 
-  console.log(filteredCategories);
   return (
     <div className="container max-w-full md:min-h-screen overflow-y-auto">
       {filteredCategories && filteredCategories.length > 0 ? (
