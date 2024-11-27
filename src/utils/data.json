@@ -1,0 +1,82 @@
+{
+    "categories": [
+        {
+            "title": "Başlarken",
+            "icon": "Arrowcurved-right",
+            "description": "Hesap bilgileri, paketleme ve \n partner programı",
+            "detail": "13 yazı"
+        },
+        {
+            "title": "Ürün Yönetimi",
+            "icon": "box",
+            "description": "Ürün ekleme, silme ve yönetme",
+            "detail": "13 yazı"
+        },
+        {
+            "title": "Sipariş Yönetimi",
+            "icon": "delivery",
+            "description": "Kargo operasyonu, iptaller ve \n faturalandırma",
+            "detail": "13 yazı"
+        },
+        {
+            "title": "İade Yönetimi",
+            "icon": "Arrowcurved-leftsvg",
+            "description": "Talepler, ihtilaflı iadeler ve \n süreçler",
+            "detail": "13 yazı"
+        },
+        {
+            "title": "Kargo Ayarları",
+            "icon": "Truck",
+            "description": "Anlaşmalar ve gönderim işlemleri",
+            "detail": "13 yazı"
+        },
+        {
+            "title": "İndirim Yönetimi",
+            "icon": "discount",
+            "description": "İndirim tipleri, yönetimleri ve \n avantajları",
+            "detail": "13 yazı"
+        },
+        {
+            "title": "Kampanya Yönetimi",
+            "icon": "copy",
+            "description": "Kampanyaya ürün ekleme ve \n kuralları",
+            "detail": "13 yazı"
+        },
+        {
+            "title": "Mağaza Kişiselleştirme",
+            "icon": "screen",
+            "description": "Kişiselleştirilmiş kullanımı keşfedin",
+            "detail": "13 yazı"
+        },
+        {
+            "title": "Reklam",
+            "icon": "ad",
+            "description": "Öne çıkmak için ihtiyaç \n duyduğunuz bilgilere erişin",
+            "detail": "13 yazı"
+        },
+        {
+            "title": "Raporlar ve Hesap Sağlığı",
+            "icon": "statitics",
+            "description": "Satışlarınız ve hesap durumunuz \n hakkında bilgi alın",
+            "detail": "13 yazı"
+        },
+        {
+            "title": "Mini",
+            "icon": "mini",
+            "description": "Ürünleriniz için Mini içerik kullanımı",
+            "detail": "13 yazı"
+        },
+        {
+            "title": "Grup Alışverişi",
+            "icon": "group-buying",
+            "description": "Oluşturma, yönetme ve kurallar \n hakkında",
+            "detail": "13 yazı"
+        },
+        {
+            "title": "Finans",
+            "icon": "layers",
+            "description": "Detaylı fatura ve ödeme \n bilgilerine ulaşarak süreçleri \n kolaylaştırın",
+            "detail": "13 yazı"
+        }
+    ]
+}
