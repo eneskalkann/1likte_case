@@ -59,7 +59,7 @@ const Header = () => {
       >
         <button
           onClick={toggleMenu}
-          className="absolute top-6 right-8 text-white text-3xl"
+          className="absolute top-6 right-4 text-white text-3xl"
         >
           X
         </button>
