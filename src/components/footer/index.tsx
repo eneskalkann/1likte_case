@@ -4,7 +4,7 @@ import Icon from "../Icon";
 
 const Footer = () => {
   return (
-    <footer className="container max-w-full py-[65px]">
+    <footer className="container max-w-full pt-[50px] pb-[152px] md:py-[65px]">
       <div className="flex flex-col justify-center items-center">
         <div className="relative w-[126.37px] h-8">
           <Image
@@ -15,8 +15,8 @@ const Footer = () => {
           />
         </div>
 
-        <div className="flex flex-col items-center gap-5 text-[#6B7280] mt-[50px]">
-          <div className="flex items-center gap-5 ">
+        <div className="flex flex-col items-center gap-5 text-[#6B7280] md:mt-[50px]">
+          <div className="hidden md:flex items-center gap-5">
             <Link href="/" className="text-sm">
               Görüşlerini Bildir
             </Link>
@@ -25,13 +25,13 @@ const Footer = () => {
             </Link>
           </div>
           <div className="flex gap-5">
-            <Link href="https://twitter.com/1likte" target="_blank">
+            <Link href="/" target="_blank">
               <Icon icon="x" size={16} />
             </Link>
-            <Link href="https://twitter.com/1likte" target="_blank">
+            <Link href="/" target="_blank">
               <Icon icon="instagram" size={16} />
             </Link>
-            <Link href="https://twitter.com/1likte" target="_blank">
+            <Link href="/" target="_blank">
               <Icon icon="linkedin" size={16} />
             </Link>
           </div>

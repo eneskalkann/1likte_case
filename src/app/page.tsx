@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="container max-w-full min-h-screen overflow-y-auto">
       {filteredCategories && filteredCategories.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 md:gap-y-7 md:gap-x-5 mt-[30px] mb-[97px] h-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 md:gap-y-7 md:gap-x-5 mt-[30px] md:mb-[97px] h-full">
           {filteredCategories.map((category, index) => (
             <div key={index} className="h-full">
               <CategoryCard category={category} />
